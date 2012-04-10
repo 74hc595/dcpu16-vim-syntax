@@ -6,4 +6,4 @@ To automatically enable highlighting for DCPU-16 files, add the following to you
 
 `au BufNewFile,BufRead *.dasm16,*.dasm setf dcpu`
 
-This enables DCPU-16 syntax highlighting for any files with the `.dc` or `.dcpu` extensions. (There's no official file extension yet, but something more specific than `.S` or `.asm` would be nice.)
+This enables DCPU-16 syntax highlighting for any files with the `.dasm16` or `.dasm` extensions. (There's no official file extension yet, but something more specific than `.S` or `.asm` would be nice.)
