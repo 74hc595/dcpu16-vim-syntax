@@ -52,11 +52,11 @@ syn match dcpuComment    ";.*" contains=dcpuTodo
 syn region dcpuComment   start="/\*" end="\*/"
 
 " registers
-syn keyword dcpuRegister        a b c x y z i j sp pc o pop peek push
+syn keyword dcpuRegister        a b c x y z i j sp pc ex pop peek push pick
 
 " instruction opcodes
-syn keyword dcpuOpcode  set add sub mul div mod shl shr and bor xor ife ifn ifg ifb
-syn keyword dcpuOpcode  jsr
+syn keyword dcpuOpcode  set add sub mul mli div dvi mod mdi and bor xor shr asr shl ifb ifc ife ifn ifg ifa ifl ifu adx sbx sti std
+syn keyword dcpuOpcode  jsr int iag ias rfi iaq hwn hwq hwi bcf
 
 " directives
 syn keyword dcpuDirective       word
